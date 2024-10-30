@@ -1,0 +1,96 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    font-size: 0px;
+
+}
+
+.box {
+    display: inline-block;
+    border: 2px, solid, black;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.float-box {
+    float: left;
+}
+
+.text {
+    clear: left;
+}
+
+.container-2 {
+    height: 300px;
+    width: 300px;
+    overflow: auto;
+
+}
+
+.box-2 {
+    display: inline-block;
+    border: 2px, solid, black;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color:yellow;
+}
+
+a:hover {
+    color: blue;
+    background-color: gray;
+}
+
+a:focus {
+    color: orange;
+}
+
+input:focus {
+    color: blueviolet;
+}
+
+input:checked {
+    height: 20px;
+    width: 20px;
+}
+
+input:valid {
+    color: darkgreen
+}
+
+.box-3 {
+    display: inline-block;
+    border: 2px, solid, black;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    padding: 10px;
+    z-index: 10px;
+}
+
+#theBox {
+    background-color: darkgreen;
+    position: fixed;
+    left: 50px;
+    z-index: 0;
+}
+
+.container-3 {
+    z-index: 20px;
+}
